@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-color{
+    color:#FF42A5;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 200px;
+    max-width: 1400px;
+    margin: 30px auto;
+
+}
+.game-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 50%;
+}
+.game-container img{
+    width: 70px;
+    object-fit: cover;
+    padding: 5px;
+     
+}
+.menu-container{
+    width: 50%;
+     
+}
+.menu-container ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+   
+}
+.btn{
+    padding: 15px 50px 15px 20px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa{
+    font-size: 30px;
+    color: red;
+    margin-left: 15px;
+}
+.tiktok{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+/* baner section */
+.baner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 30px auto;
+}
+.baner-container{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.baner-container img{
+    width: 700px;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+}
+.text-container{
+    text-align: center;
+    align-items: center;
+    position: relative;
+} 
+.like{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.goat{
+    margin-bottom: 10px;
+    font-size: 60px;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+ 
+}
+.play{
+    margin-bottom: 10px;
+    margin-left: -50px;
+
+}
+.fa-play-circle-o{
+    font-size: 20px;
+    color: red;
+    margin-right: 5px;
+}
+.download{
+    margin-bottom: 10px;
+}
+.fa-download{
+    font-size: 20px;
+    color: red;
+    margin-right: 5px;
+    margin-left: -70px;
+}
+
+.people{
+    margin-bottom: 10px;
+    font-size: 12px;
+    
+}
+.fa-user{
+    font-size: 20px;
+    color: black;
+    margin-right: 5px;
+}
+.btn-sign{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    background-color:#FF42A5;
+    
+}
+.btn-go{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    background-color: #4EC5F7;
+}
+.img-container{
+    width: 50%;
+    
+}
+.img-container img{
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+
+}
+/* gellary section */
+.funny{
+    text-align: center;
+}
+.funny h1{
+    margin-bottom: 10px;
+}
+.funny p{
+    font-size: 12px;
+}
+span{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.gellary{
+    max-width: 1400px;
+    margin: 30px auto;
+    display: flex;
+ 
+}
+.gellary img{
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    position: relative;
+}
+
+.gellary p{
+    padding-left: 10px;
+}
+/* middle section */
+.middle{
+    max-width: 1400px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.middle-text{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    
+}
+.middle-text h1{
+    margin-bottom: 10px;
+}
+.horse{
+    width: 50%;
+    position: relative;
+    
+}
+.middle-pic{
+    top: 50%;
+    right: 75%;
+    position: absolute;
+    
+}
+/* hover section */
+.hover-gellary{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+.hover1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    
+}
+.hover2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.hover-gellary img{
+    width: 40px;
+    object-fit: cover;
+    padding: 5px 5px 5px 0;
+    border-radius: 50px;
+}
+.eleven{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.eleven:hover{
+    color: #FF42A5;
+    border:1px solid #FF42A5;
+    cursor: pointer;  
+}
+/* footer */
+.bottom{
+    background-color: black;
+    margin-top: 100px;
+    height: 100vh;
+    margin: 50px auto; 
+}
+.game-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    color: white;
+    margin: 40px;
+    padding: 20px;
+}
+.list{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+ 
+}
+.icon-social{
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    
+}
+.icon-social i{
+    color: white;
+   
+}
+.list1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 20px 40px;
+    color: rgba(255, 255, 255, 0.60);
+}
+nav p{
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.60);
+} 
+
+/* responsive mobile */
+
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .menu-container ul{
+        flex-direction: column;
+    }
+    .btn{
+        padding: 05px;
+    }
+    .baner{
+        flex-direction: column;
+    }
+    .baner-container{
+        width: 100%;
+    }
+    .baner-container img{
+        width: 100%;
+    }
+    .img-container{
+        width: 100%;
+    }
+    .img-container img{
+        width: 380px;
+        align-items: center;
+    }
+    .funny h1{
+        font-size: 25px;
+    }
+    .gellary{
+        flex-direction: column;
+    }
+    .middle{
+        flex-direction: column;
+    }
+    .middle-text{
+        width: 100%;
+    }
+    .horse{
+        width: 100%;
+        margin-bottom: 180px;
+    }
+    .horse img{
+        width: 380px;
+    
+    }
+    .horse .middle-pic{
+        top: 50%;
+        right: 25%;
+        
+    }
+    button{
+        width: 170px;
+        height: 40px;
+    }
+  
+    .hover1{
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .hover2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .eleven{
+        padding: 5px 2px;
+    }
+    .list{
+        gap: 10px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
